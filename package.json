@@ -1,0 +1,33 @@
+{
+  "name": "log-lite",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-bradley/log-lite"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Ben Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-bradley/log-lite/issues"
+  },
+  "homepage": "https://github.com/ben-bradley/log-lite"
+}
